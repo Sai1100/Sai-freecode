@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+
+.logo img{
+    height: 180px;
+    margin-top: -50px;
+
+}
+
+
+.links{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.links li{
+    margin: 0px 10px;
+}
+
+.links li a{
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-size: small;
+}
+
+.links li a:hover{
+    color:red
+}
+
+
+
+.para{
+    color: black;
+}
+
+.fname{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 100;
+}
+
+
+h2{
+    text-align: center;
+    margin-top:75px;
+    margin-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: yellow;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.style{
+    height: 340px;
+    width: 330px;
+    margin-left: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.content{
+    background-color: rgb(199, 15, 15);
+    width: 350px;
+    height: 510px;
+    margin-bottom: 10px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgb(29, 28, 28);
+    height: 100px;
+    margin-top: 20px;
+   
+
+}
+
+.footer li a{
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: small;
+    
+    
+}
+ 
+
+.footer li{
+   margin-top: 60px;
+    
+}
+
+.footer li a:hover{
+    color: red;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    margin-top: 20px;
+    font-size: small;
+    
+}
+
+h4{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 10px;
+ 
+}
+
+h4::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 22%;
+    margin-top: 22px;
+    margin-left:-230px;
+    background-color: black;
+    z-index: 1;
+}
